@@ -14,7 +14,7 @@ const Nav = () => {
     <>
       <section>
         <nav className="flex justify-between md:hidden mt-8 px-8">
-          <div>
+          <div className="">
             <p className="text-lg font-bold">City Public School, Durgapur</p>
             <p>Jemua, Durgapur, WB, India</p>
           </div>
@@ -61,7 +61,7 @@ const Nav = () => {
 
       {/* Laptop Nav */}
       <section>
-        <div className="hidden md:block pt-6 px-20 pr-40">
+        <div className="hidden md:block py-6 px-20 pr-40 shadow-lg">
           <div className="flex justify-between items-center">
             <div className="">
               <p className="text-2xl font-bold">City Public School</p>

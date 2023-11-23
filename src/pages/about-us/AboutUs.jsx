@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react"
 
 const AboutUs = () => {
   return (
-    <section className="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800">
+    <section className="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 -mt-16">
       <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
         <div className="px-4 mb-10 md:text-center md:mb-20">
           <p className="mb-2 text-lg font-semibold text-blue-500 dark:text-gray-400">About Us</p>
@@ -26,10 +26,15 @@ const AboutUs = () => {
               We are providing a better facility
             </h2>
             <p className="mb-4 text-base leading-7 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam
+              Welcome to City Public School, Durgapur, West Bengal, India—your child's gateway to a vibrant educational
+              journey. Our certified kindergarten teachers are committed to building a strong academic foundation. With
+              a focus on inclusivity, we provide personalized support to ensure every child thrives. At City Public
+              School, we foster curiosity, critical thinking, and self-expression through engaging programs and
+              state-of-the-art facilities. Choose us for a kindergarten experience that goes beyond the ordinary,
+              shaping the path to a lifetime of success. Enroll today and let City Public School illuminate your child's
+              educational path.
             </p>
-            <ul className="mb-10">
+            {/* <ul className="mb-10">
               <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                 <span className="mr-3 text-blue-500 dark:text-blue-400">
                   <svg
@@ -75,18 +80,12 @@ const AboutUs = () => {
                 </span>
                 Iron man ipsum dolor sit amet, consectetur adipiscing
               </li>
-            </ul>
-            <a
-              href="#"
-              className="px-4 py-3 text-blue-700 transition-all transform border border-blue-500 hover:bg-blue-600 dark:border-blue-400 dark:hover:bg-blue-500 dark:hover:text-gray-100 dark:hover:border-blue-500 dark:text-blue-400 hover:text-gray-100"
-            >
-              Discover more
-            </a>
+            </ul> */}
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs

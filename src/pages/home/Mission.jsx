@@ -2,17 +2,16 @@ import React from 'react';
 
 const MissionSection = () => (
   <section className="py-10 lg:py-20 bg-stone-100 font-poppins dark:bg-gray-800">
-    <div className="max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+    <div className="w-4/5 py-4 mx-auto lg:py-6 md:px-6">
       <div className="flex flex-wrap">
-        <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-          <div className="lg:max-w-md">
+        <div className="w-4/5 px-4 mb-10 lg:w-1/2 lg:mb-0">
+          <div className="w-full">
             <div className="px-4 pl-4 mb-6 border-l-4 border-blue-500">
               <span className="text-sm text-gray-600 uppercase dark:text-gray-400">Who we are?</span>
               <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">About Us</h1>
             </div>
             <p className="px-4 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet.
+            City Public School, proudly backed by the Durgapur Educational Foundation in the vibrant city of Durgapur, West Bengal, India, is committed to fostering academic excellence and holistic development. Our dedicated educators strive to create an environment where students not only excel academically but also thrive emotionally and socially. Join us on the journey of shaping a future where education is a comprehensive experience, unlocking potential, and molding well-rounded individuals.
             </p>
             <div className="flex flex-wrap items-center">
               <InfoCard
