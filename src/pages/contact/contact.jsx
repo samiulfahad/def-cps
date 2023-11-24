@@ -73,7 +73,7 @@ const Contact = () => {
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
               </svg>
               <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500 dark:text-gray-400">
-                Dhaka, Bangladesh
+              JEMUA, NEAR GRAM PANCHAYAT
               </div>
             </div>
             <div className="flex mb-6 text-gray-400 dark:text-gray-400">
@@ -90,7 +90,7 @@ const Contact = () => {
                 ></path>
               </svg>
               <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500 dark:text-gray-400">
-                <span>+977-014151329,</span> <span>+977-014151678</span>
+                <span>+918207284143</span>
               </div>
             </div>
             <div className="flex text-gray-400 dark:text-gray-400">
@@ -107,7 +107,7 @@ const Contact = () => {
                 ></path>
               </svg>
               <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500 dark:text-gray-400">
-                info@gmail.com
+              citypublicschool.def@gmail.com
               </div>
             </div>
           </div>

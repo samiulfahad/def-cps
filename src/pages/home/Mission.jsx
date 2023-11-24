@@ -32,8 +32,8 @@ const MissionSection = () => (
                     />
                   </svg>
                 }
-                value="2097"
-                description="Projects and Plans"
+                value="20+"
+                description="Yearly Exams"
               />
               <InfoCard
                 icon={
@@ -55,8 +55,8 @@ const MissionSection = () => (
                     <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
                   </svg>
                 }
-                value="3,590"
-                description="Helped people"
+                value="300+"
+                description="Students"
               />
               <InfoCard
                 icon={
@@ -76,8 +76,8 @@ const MissionSection = () => (
                     />
                   </svg>
                 }
-                value="74"
-                description="Volunteer"
+                value="10+"
+                description="Teachers"
               />
               <InfoCard
                 icon={
@@ -94,8 +94,8 @@ const MissionSection = () => (
                     />
                   </svg>
                 }
-                value="100"
-                description="Timing"
+                value="6hours"
+                description="Daily Class"
               />
             </div>
           </div>

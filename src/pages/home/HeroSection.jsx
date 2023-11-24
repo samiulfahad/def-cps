@@ -56,7 +56,7 @@ const FeatureGrid = () => {
     },
   ]
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 w-2/3 mx-auto  justify-center items-center relative mt-0 lg:-mt-[90px] z-10 rounded">
+    <div className=" md:grid md:grid-cols-1 lg:grid-cols-3 w-2/3 mx-auto  justify-center items-center relative mt-0 lg:-mt-[90px] z-10 rounded">
       {fearures.map((fearure, index) => (
         <FeatureCard
           key={index}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FAQSection = () => (
-  <section className="flex items-center bg-white lg:h-screen dark:bg-gray-800">
+  <section className="flex items-center bg-white dark:bg-gray-800 mb-20">
     <div className="max-w-5xl p-4 mx-auto">
       <div className="text-center mb-14">
         <h1 className="mb-4 text-3xl font-bold dark:text-white"> Frequently Asked Questions </h1>

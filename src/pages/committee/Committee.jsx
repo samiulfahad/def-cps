@@ -2,7 +2,7 @@ import React from "react"
 
 const TeamMember = ({ name, role, description, imageSrc, facebookLink, twitterLink, instagramLink }) => {
   return (
-    <a className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row dark:bg-gray-800" href="#">
+    <div className="flex flex-col flex-wrap mb-8 overflow-hidden rounded lg:flex-row dark:bg-gray-800">
       <div className="w-full overflow-hidden lg:w-2/4 h-80">
         <img className="object-cover w-full h-full transition-all hover:scale-110" src={imageSrc} alt={name} />
       </div>
@@ -57,54 +57,69 @@ const TeamMember = ({ name, role, description, imageSrc, facebookLink, twitterLi
           </div>
         </div>
       </div>
-    </a>
+    </div>
   )
 }
 
 const Committee = () => {
+  const members = [
+    {
+      name: "Yousuf Alam",
+      role: "Director",
+      description: "Lorem ipsum dolor sit amet...",
+      imageSrc: "https://i.postimg.cc/05hmHMx1/pexels-emmy-e-2381069.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+
+    {
+      name: "Henry Robinson",
+      role: "Headmaster",
+      description: "Lorem ipsum dolor sit amet...",
+      imageSrc: "https://i.postimg.cc/q7pv50zT/pexels-edmond-dant-s-4342352.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+
+    {
+      name: "Henry Robinson",
+      role: "Director",
+      description: "Lorem ipsum dolor sit amet...",
+      imageSrc: "https://i.postimg.cc/JzmrHQmk/pexels-pixabay-220453.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+    {
+      name: "Henry Robinson",
+      role: "Director",
+      description: "Lorem ipsum dolor sit amet...",
+      imageSrc: "https://i.postimg.cc/05hmHMx1/pexels-emmy-e-2381069.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+  ]
+
   return (
     <section className="flex items-center py-24 bg-stone-100 font-poppins dark:bg-gray-800">
       <div className="container mx-auto">
         <h2 className="mb-12 text-4xl font-bold text-center text-gray-800 dark:text-gray-200">Meet The Team</h2>
         <div className="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-2">
-          <TeamMember
-            name="Henry Robinson"
-            role="Director"
-            description="Lorem ipsum dolor sit amet..."
-            imageSrc="https://i.postimg.cc/05hmHMx1/pexels-emmy-e-2381069.jpg"
-            facebookLink="#"
-            twitterLink="#"
-            instagramLink="#"
-          />
-          <TeamMember
-            name="John Doe"
-            role="Developer"
-            description="Lorem ipsum dolor sit amet..."
-            imageSrc="https://i.postimg.cc/bNyr5cJq/pexels-anastasia-shuraeva-5704720.jpg"
-            facebookLink="#"
-            twitterLink="#"
-            instagramLink="#"
-          />
-
-          <TeamMember
-            name="John Doe"
-            role="Developer"
-            description="Lorem ipsum dolor sit amet..."
-            imageSrc="https://i.postimg.cc/q7pv50zT/pexels-edmond-dant-s-4342352.jpg"
-            facebookLink="#"
-            twitterLink="#"
-            instagramLink="#"
-          />
-
-          <TeamMember
-            name="John Doe"
-            role="Developer"
-            description="Lorem ipsum dolor sit amet..."
-            imageSrc="https://i.postimg.cc/JzmrHQmk/pexels-pixabay-220453.jpg"
-            facebookLink="#"
-            twitterLink="#"
-            instagramLink="#"
-          />
+          {members.map((member, index) => (
+            <TeamMember
+              key={index}
+              name={member.name}
+              role={member.role}
+              description={member.description}
+              imageSrc={member.imageSrc}
+              facebookLink={member.facebookLink}
+              twitterLink={member.twitterLink}
+              instagramLink={member.instagramLink}
+            />
+          ))}
         </div>
       </div>
     </section>
