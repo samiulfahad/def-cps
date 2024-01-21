@@ -15,10 +15,10 @@ const Nav = () => {
     <>
       <section>
         <nav className="flex justify-between md:hidden mt-8 px-8">
-          <div className="">
+          <Link to={"/"} className="">
             <p className="text-lg font-bold">City Public School, Durgapur</p>
             <p>Jemua, Durgapur, WB, India</p>
-          </div>
+          </Link>
           <div>
             <img src="/images/logo.svg" alt="" />
           </div>

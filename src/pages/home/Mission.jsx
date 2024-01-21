@@ -6,14 +6,14 @@ const MissionSection = () => (
       <div className="flex flex-wrap">
         <div className="w-4/5 px-4 mb-10 lg:w-1/2 lg:mb-0">
           <div className="w-full">
-            <div className="px-4 pl-4 mb-6 border-l-4 border-blue-500">
+            <div className="px-4 text-center pl-4 mb-6">
               <span className="text-sm text-gray-600 uppercase dark:text-gray-400">Who we are?</span>
-              <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">About Us</h1>
+              <h1 className="mt-2 text-center text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">About Us</h1>
             </div>
-            <p className="px-4 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+            <p className="px-4 text-center mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
             City Public School, proudly backed by the Durgapur Educational Foundation in the vibrant city of Durgapur, West Bengal, India, is committed to fostering academic excellence and holistic development. Our dedicated educators strive to create an environment where students not only excel academically but also thrive emotionally and socially. Join us on the journey of shaping a future where education is a comprehensive experience, unlocking potential, and molding well-rounded individuals.
             </p>
-            <div className="flex flex-wrap items-center">
+            <div className="flex flex-wrap">
               <InfoCard
                 icon={
                   <svg
@@ -114,8 +114,8 @@ const MissionSection = () => (
 
 const InfoCard = ({ icon, value, description }) => (
   <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-    <div className="p-6 bg-white dark:bg-gray-900">
-      <span className="text-blue-500 dark:text-blue-400">{icon}</span>
+    <div className="flex flex-col justify-center items-center p-6 bg-white dark:bg-gray-900">
+      <span className="text-blue-500 dark:text-blue-400 text-center">{icon}</span>
       <p className="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">{value}</p>
       <h2 className="text-sm text-gray-700 dark:text-gray-400">{description}</h2>
     </div>

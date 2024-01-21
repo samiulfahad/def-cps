@@ -16,7 +16,7 @@ const FeatureSection = () => (
               <div className="flex-1 h-2 bg-blue-600"></div>
             </div>
           </div>
-          <p className="mb-4 text-base text-gray-500 lg:mb-16">
+          <p className="mb-4 text-base text-gray-500 text-justify lg:mb-16">
             Our kindergarten stands out with captivating learning spaces, sparking creativity and curiosity. Our
             curriculum celebrates cultural diversity, integrating local traditions for a globally aware education.
             Embracing the future, we infuse age-appropriate technology, ensuring readiness for the digital age. Above

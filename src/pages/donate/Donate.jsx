@@ -4,16 +4,16 @@ const Donate = () => {
   return (
     <section className="min-h-screen flex items-stretch text-white ">
       <div
-        className="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center"
+        className="md:flex md:w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center"
         style={{
           backgroundImage:
             "url(https://images.unsplash.com/photo-1577495508048-b635879837f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80)",
         }}
       >
         <div className="absolute bg-black opacity-60 inset-0 z-0 "></div>
-        <div className="w-full px-24 z-10">
-          <h1 className="text-5xl font-bold text-center tracking-wide">Nurturing Tomorrow's Leaders</h1>
-          <p className="text-3xl my-4 text-center">Support Education at City Public School, Durgapur. Your Donation, Their Bright Future.</p>
+        <div className="w-full px-24 z-10 text-justify">
+          <h1 className="text-4xl font-bold tracking-wide">Nurturing Tomorrow's Leaders</h1>
+          <p className="text-xl my-4">Support Education at City Public School, Durgapur. Your Donation, Their Bright Future.</p>
         </div>
         <div className="bottom-0 absolute p-4 text-center right-0 left-0 flex justify-center space-x-4">
           <span>
@@ -33,7 +33,7 @@ const Donate = () => {
           </span>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center w-1/2 bg-black p-6">
+      <div className="flex flex-col justify-center items-center text-center sm:w-full md:w-1/2 bg-black p-6">
         <h1 className="text-4xl text-white font-extrabold mb-4">Donate and help us to grow</h1>
         {/* <form className="w-full max-w-lg">
           <div className="flex flex-wrap -mx-3 mb-4">

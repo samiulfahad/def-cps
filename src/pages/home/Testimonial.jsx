@@ -45,7 +45,7 @@ const TestimonialsSection = () => {
           <div className="flex flex-col justify-center items-center mx-auto md:grid md:grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="relative mb-10 border-b-4 border-blue-500" href="#">
-                <div className="z-20 pt-8 pb-5">
+                <div className="z-20 pt-8 pb-5 text-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"

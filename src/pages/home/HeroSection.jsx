@@ -124,8 +124,8 @@ const FeatureCard = ({ bgColor, iconColor, title, description }) => (
         </svg>
       )}
     </div>
-    <h2 className="mb-4 text-2xl font-semibold text-gray-100 dark:text-white">{title}</h2>
-    <p className="text-base text-gray-300 dark:text-gray-300">{description}</p>
+    <h2 className="mb-4 text-2xl text-center font-semibold text-gray-100 dark:text-white">{title}</h2>
+    <p className="text-base text-center text-gray-300 dark:text-gray-300">{description}</p>
   </div>
 )
 

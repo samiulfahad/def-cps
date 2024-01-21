@@ -26,7 +26,7 @@ const AboutUs = () => {
             <h2 className="py-3 pl-2 mb-4 text-2xl font-bold text-gray-700 border-l-4 border-blue-500 dark:border-blue-400 dark:text-gray-300">
               We are providing a better facility
             </h2>
-            <p className="mb-4 text-base leading-7 text-gray-500 dark:text-gray-400">
+            <p className="mb-4 text-base leading-7 text-justify text-gray-500 dark:text-gray-400">
               THE FOUNDATIONS ARE IMPORTANT IN EDIFICATION SINCE IT IS A LIFELONG COGNITIVE PROCESS. THE ART OF GOOD
               LIVING, OR MAKING THE MOST OF HUMAN LIFE, DEPENDS ON THE OBJECTIVES STATED, THE POSES ADOPTED, THE
               ABILITIES AND SKILLS REFINED, AND THE INSTRUCTION PROVIDED. IT SHOULD BE THE COMMITMENT TO SUPPORT A
