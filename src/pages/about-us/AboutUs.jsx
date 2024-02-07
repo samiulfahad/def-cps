@@ -3,11 +3,11 @@ import React from "react"
 const AboutUs = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center px-4 md:px-0 w-full md:w-4/5 mx-auto">
+      <div className="bg-blue-50 flex flex-col justify-center items-center px-4 md:px-20 mx-auto">
         <div className="px-4 my-10 md:text-center">
           <p className="mb-2 text-lg font-semibold text-blue-500 dark:text-gray-400">About Us</p>
           <h2 className="pb-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">What we do</h2>
-          <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">
+          <div className="flex w-32 mt-1 overflow-hidden rounded md:mx-auto">
             <div className="flex-1 h-2 bg-blue-200"></div>
             <div className="flex-1 h-2 bg-blue-400"></div>
             <div className="flex-1 h-2 bg-blue-300"></div>
@@ -23,10 +23,8 @@ const AboutUs = () => {
             />
           </div>
           <div className="w-2/3 lg:w-/2">
-            <h2 className="py-3 pl-2 mb-4 text-2xl font-bold text-gray-700 border-l-4 border-blue-500 dark:border-blue-400 dark:text-gray-300">
-              We are providing a better facility
-            </h2>
-            <p className="mb-4 text-base leading-7 text-justify text-gray-500 dark:text-gray-400">
+            
+            <p className="mb-20 text-base leading-7 text-justify text-gray-500 dark:text-gray-400">
               THE FOUNDATIONS ARE IMPORTANT IN EDIFICATION SINCE IT IS A LIFELONG COGNITIVE PROCESS. THE ART OF GOOD
               LIVING, OR MAKING THE MOST OF HUMAN LIFE, DEPENDS ON THE OBJECTIVES STATED, THE POSES ADOPTED, THE
               ABILITIES AND SKILLS REFINED, AND THE INSTRUCTION PROVIDED. IT SHOULD BE THE COMMITMENT TO SUPPORT A
