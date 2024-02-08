@@ -36,6 +36,10 @@ const NavList = [
     label: "Add Student",
     to: "/add-student",
   },
+  {
+    label: "Upload notice",
+    to: "/upload-notice",
+  },
 ]
 
 export default NavList

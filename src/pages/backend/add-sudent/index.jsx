@@ -45,7 +45,7 @@ const AddStudent = () => {
           </div>
           <div className="flex justify-center items-center space-x-8">
             <Textarea label="Address" color="blue" />
-            <Input variant="static"  type="file"  accept=".jpg, .jpeg, .png" label="Photo of Student" onChange={val => console.log(Object.values(val))}  />
+            <Input variant="static" type="file"  accept=".jpg, .jpeg, .png" label="Photo of Student" onChange={val => console.log(Object.values(val))}  />
           </div>
 
           <button type="submit" className="px-4 py-2 text-base text-gray-100 bg-blue-600 rounded hover:bg-blue-500">
