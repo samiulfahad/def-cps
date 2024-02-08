@@ -6,6 +6,7 @@ import { Home, AboutUs, Contact, Donate, Committee } from "./pages"
 import Page404 from "./pages/Page404"
 import Students from "./pages/students"
 import Notice from "./pages/notice"
+import AddStudent from "./pages/backend/add-sudent"
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Committee />} />
           <Route path="*" element={<Page404 />} />
+
+          <Route path="/add-student" element={<AddStudent />} />
+
         </Routes>
       </Layout>
     </>
