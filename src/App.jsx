@@ -8,6 +8,7 @@ import Students from "./pages/students"
 import Notice from "./pages/notice"
 import AddStudent from "./pages/backend/add-sudent"
 import UploadNotice from "./pages/backend/notice"
+import PayFee from "./pages/pay-fee"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/pay-fee" element={<PayFee />} />
           <Route path="/notices" element={<Notice />} />
           <Route path="/upload-notice" element={<UploadNotice />} />
           <Route path="/students" element={<Students />} />
@@ -25,7 +27,6 @@ const App = () => {
           <Route path="*" element={<Page404 />} />
 
           <Route path="/add-student" element={<AddStudent />} />
-
         </Routes>
       </Layout>
     </>

@@ -9,7 +9,7 @@ const AddStudent = () => {
   }
 
   return (
-    <section className="py-16 bg-stone-100 font-poppins">
+    <section className="min-h-screen py-16 bg-stone-100 font-poppins">
       <div className="max-w-4xl px-4 py-4 mx-auto bg-white border shadow-sm lg:py-4 md:px-6">
         <div className="mb-10">
           <h2 className="pb-2 mb-2 text-center text-xl font-bold text-gray-800 md:text-3xl">Add Student</h2>

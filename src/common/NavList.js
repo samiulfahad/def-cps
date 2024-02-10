@@ -17,8 +17,8 @@ const NavList = [
     to: "/students",
   },
   {
-    label: "Fees",
-    to: "/fees",
+    label: "Pay Fee",
+    to: "/pay-fee",
   },
   {
     label: "Our Team",

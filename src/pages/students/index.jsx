@@ -3,7 +3,7 @@ import Card from "./Card"
 import Button from "./Button"
 const Students = () => {
   return (
-    <section className="bg-blue-50">
+    <section className="bg-blue-50 min-h-screen">
       <h4 className="text-xl text-center pt-8">Total Students: 220</h4>
       <div className="flex flex-wrap justify-center items-center ">
         <Button cls="1" />

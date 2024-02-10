@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="flex items-center bg-gradient-to-r from-gray-50 to-blue-50 xl:h-screen font-poppins dark:from-gray-900 dark:to-gray-900">
-      <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">
+    <section className="flex items-center min-h-screen  bg-gradient-to-r from-gray-50 to-blue-50 font-poppins dark:from-gray-900 dark:to-gray-900">
+      <div className="-mt-20 justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">
         <div className="flex flex-wrap items-center justify-center -mx-4">
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-sm mx-auto">
