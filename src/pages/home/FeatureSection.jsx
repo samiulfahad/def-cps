@@ -6,9 +6,9 @@ const FeatureSection = () => (
       <div className="flex flex-wrap items-center gap-8 lg:flex-nowrap">
         <div className="w-full lg:w-1/2">
           <div className="relative">
-            <h1 className="absolute -top-14 left-0 text-[120px] font-bold opacity-5 md:block hidden">FEATURE</h1>
+            <h1 className="absolute -top-16 left-0 text-[50px] font-bold opacity-5 md:block hidden">DEF-CPS</h1>
             <h1 className="text-5xl font-bold dark:text-white">
-              Our <span className="text-blue-500">Features</span>
+              The Way <span className="text-blue-500">We Teach</span>
             </h1>
             <div className="flex w-24 mt-1 mb-6 overflow-hidden rounded md:mb-14">
               <div className="flex-1 h-2 bg-blue-200"></div>
@@ -17,10 +17,11 @@ const FeatureSection = () => (
             </div>
           </div>
           <p className="mb-4 text-base text-gray-500 text-justify lg:mb-16">
-            Our kindergarten stands out with captivating learning spaces, sparking creativity and curiosity. Our
-            curriculum celebrates cultural diversity, integrating local traditions for a globally aware education.
-            Embracing the future, we infuse age-appropriate technology, ensuring readiness for the digital age. Above
-            all, we prioritize holistic development, nurturing well-rounded individuals for success in a dynamic world.
+            A wide range of activities conducted through our school clubs and societies help students in inculcating
+            their interests and skills under the guidance of our staff and teachers. Holistic development is met through
+            the continuous participation of our students in activities that are organised in school outside the
+            prescribed C.B.S.E curriculum through various inter school competitions, excursions, camps, interactive
+            sessions and other activities.
           </p>
         </div>
         <div className="grid flex-1 grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">

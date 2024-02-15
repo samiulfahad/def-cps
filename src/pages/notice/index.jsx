@@ -5,7 +5,9 @@ import ScrollingText from "./ScrollingText"
 const Notice = () => {
   return (
     <section className="min-h-screen bg-blue-50 ">
-      <ScrollingText />
+      <div className="max-w-4xl mx-auto">
+        <ScrollingText />
+      </div>
       <div className="items-center lg:flex font-poppin pb-20">
         <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
           <div className="pt-4 rounded shadow bg-white">

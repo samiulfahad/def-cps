@@ -7,13 +7,11 @@ const features = [
       "To provide the highest quality of education in a safe, secure and nurturing environment; to avail, our students develop into progressive thinkers and lifelong bearers of skills that will prepare them for the challenges of a dynamically transmuting world.",
   },
 
-
   {
     title: "Message of Director",
-    description: "The door to knowledge about the creatures around us can be opened by education, which is the sole powerful tool that has the power to transform any society. A well-educated person cannot harm either the nation or society. Through their knowledge, commitment, and passion, they consistently demonstrate the right way to live. Education is the only asset that cannot be stolen, and those who possess it cannot lose that asset if they share it."
-
+    description:
+      "The door to knowledge about the creatures around us can be opened by education, which is the sole powerful tool that has the power to transform any society. A well-educated person cannot harm either the nation or society. Through their knowledge, commitment, and passion, they consistently demonstrate the right way to live. Education is the only asset that cannot be stolen, and those who possess it cannot lose that asset if they share it.",
   },
-
 
   {
     title: "Vision",
@@ -23,16 +21,16 @@ const features = [
 ]
 
 const FeatureSection2 = () => (
-  <section className="flex items-center justify-center bg-gray-100 dark:bg-gray-800 lg:h-screen">
+  <section className="flex items-center justify-center bg-gray-100 dark:bg-gray-800 ">
     <div className="px-4 py-10 mx-auto max-w-7xl">
       <div className="max-w-xl mx-auto">
         <div className="text-center">
           <div className="relative flex flex-col items-center">
             <div className="absolute hidden md:block -top-14 left-0 text-[120px] text-gray-400 font-bold opacity-10">
-              GOALS
+              DEF-CPS
             </div>
-            <h1 className="text-5xl font-bold dark:text-white">
-              Our <span className="text-blue-500"> Goals </span>{" "}
+            <h1 className="text-3xl font-bold dark:text-white">
+              Our<span className="text-blue-500"> RULES AND REGULATIONS </span>{" "}
             </h1>
             <div className="flex w-24 mt-1 mb-10 overflow-hidden rounded">
               <div className="flex-1 h-2 bg-blue-200"></div>
@@ -40,19 +38,42 @@ const FeatureSection2 = () => (
               <div className="flex-1 h-2 bg-blue-600"></div>
             </div>
           </div>
-          <p className="mb-16 text-base text-center text-gray-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus magni eius eaque? Pariatur numquam, odio
-            quod nobis ipsum ex cupiditate?aaaa
-          </p>
+          <div>
+            <p className="text-xl font-bold text-left text-blue-500">Timings</p>
+            <p className="mb-16 text-base text-left text-gray-500">
+              The school functions five days a week (Monday to Friday) from 8:00 AM to 1:30 PM. Students at Kindergarten
+              finish school at 11:30 AM and grades 1 to upward finish by 1:30 PM
+            </p>
+          </div>
+          <div className="-mt-16">
+            <p className="text-xl font-bold text-left text-blue-500">Attendance & Punctuality</p>
+            <p className="mb-16 text-base text-left text-gray-500">
+              The school is strict about punctuality and attendance and any lack of it must be supported through
+              adequate show of cause
+            </p>
+          </div>
+
+          <div className="-mt-16">
+            <p className="text-xl font-bold text-left text-blue-500">Discipline & Decorum</p>
+            <p className="mb-16 text-base text-left text-gray-500">
+              Students are expected to maintain right order and decorum throughout the school hours, discharging
+              appropriate respect and decorum where it is due. Any unsolicited behaviour towards the staff and other
+              students in the school will be met with strict disciplinary actions.
+            </p>
+          </div>
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center space-x-4">
-        
-        {
-          features.map((feature, index) => <FeatureCard key={index} title={feature.title} description={feature.description} bgColor="bg-white" iconColor="text-blue-400"/>)
-        }
-        
+        {features.map((feature, index) => (
+          <FeatureCard
+            key={index}
+            title={feature.title}
+            description={feature.description}
+            bgColor="bg-white"
+            iconColor="text-blue-400"
+          />
+        ))}
       </div>
     </div>
   </section>
