@@ -1,5 +1,5 @@
 import React from "react"
-import { Routes, Route, BrowserRouter } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 import Layout from "./common/Layout"
 import { Home, AboutUs, Contact, Donate, Committee } from "./pages"
@@ -9,6 +9,7 @@ import Notice from "./pages/notice"
 import AddStudent from "./pages/backend/add-sudent"
 import UploadNotice from "./pages/backend/notice"
 import PayFee from "./pages/pay-fee"
+import Admission from "./pages/admission"
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/admission" element={<Admission />} />
+          <Route path="/admission-request" element={<AddStudent />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/pay-fee" element={<PayFee />} />
           <Route path="/notices" element={<Notice />} />
@@ -26,7 +29,6 @@ const App = () => {
           <Route path="/team" element={<Committee />} />
           <Route path="*" element={<Page404 />} />
 
-          <Route path="/add-student" element={<AddStudent />} />
         </Routes>
       </Layout>
     </>

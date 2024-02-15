@@ -4,6 +4,10 @@ const NavList = [
     to: "/",
   },
   {
+    label: "Admission",
+    to: "/admission",
+  },
+  {
     label: "About",
     to: "/about",
   },
@@ -32,14 +36,14 @@ const NavList = [
     label: "Contact",
     to: "/contact",
   },
-  {
-    label: "Add Student",
-    to: "/add-student",
-  },
-  {
-    label: "Upload notice",
-    to: "/upload-notice",
-  },
+  // {
+  //   label: "Add Student",
+  //   to: "/add-student",
+  // },
+  // {
+  //   label: "Upload notice",
+  //   to: "/upload-notice",
+  // },
 ]
 
 export default NavList
