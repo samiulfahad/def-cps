@@ -105,7 +105,7 @@ const MissionSection = () => (
               </div>
               <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                 <img
-                  src="https://i.postimg.cc/9MW8G96J/pexels-the-coach-space-2977565.jpg"
+                  src="https://i.postimg.cc/65hmG5qR/IMG-20220512-WA0016.jpg"
                   alt=""
                   className="relative z-40 object-cover w-full h-full rounded"
                 />

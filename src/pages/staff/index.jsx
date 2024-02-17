@@ -11,7 +11,7 @@ const TeamMember = ({ name, role, description, imageSrc, facebookLink, twitterLi
           <h2 className="mb-2 text-xl font-bold dark:text-gray-300">{name}</h2>
           <p className="mb-4 text-sm text-blue-500 dark:text-blue-400">{role}</p>
           <p className="mb-4 text-sm text-gray-400 dark:text-gray-400">{description}</p>
-          <div className="flex">
+          {/* <div className="flex">
             <span className="inline-block mr-5 text-gray-700 dark:text-gray-400 hover:text-blue-500">
               <a href={facebookLink} target="_blank" rel="noopener noreferrer">
                 <svg
@@ -54,14 +54,14 @@ const TeamMember = ({ name, role, description, imageSrc, facebookLink, twitterLi
                 </svg>
               </a>
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
   )
 }
 
-const Committee = () => {
+const Staff = () => {
   const members = [
     {
       name: "Yousuf Alam",
@@ -106,7 +106,7 @@ const Committee = () => {
   return (
     <section className="flex items-center py-24 bg-stone-100 font-poppins dark:bg-gray-800">
       <div className="container mx-auto">
-        <h2 className="mb-12 text-4xl font-bold text-center text-gray-800 dark:text-gray-200">Meet The Team</h2>
+        <h2 className="mb-12 text-4xl font-bold text-center text-gray-800 dark:text-gray-200">Meet The Teaching Staff</h2>
         <div className="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-2">
           {members.map((member, index) => (
             <TeamMember
@@ -126,4 +126,4 @@ const Committee = () => {
   )
 }
 
-export default Committee
+export default Staff

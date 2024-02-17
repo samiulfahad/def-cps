@@ -1,7 +1,7 @@
-import Home from "./home/home";
-import Contact from "./Contact/Contact";
-import AboutUs from "./about-us/AboutUs"
-import Donate from "./donate/Donate"
-import Committee from "./committee/Committee"
+import Home from "./home";
+import Contact from "./Contact";
+import AboutUs from "./about-us"
+import Donate from "./donate"
+import Staff from "./staff"
 
-export { Home, AboutUs, Contact, Donate, Committee }
+export { Home, AboutUs, Contact, Donate, Staff }

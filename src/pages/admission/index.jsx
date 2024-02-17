@@ -5,7 +5,7 @@ const Admission = () => {
     
   return (
     <section className="bg-blue-50 min-h-screen">
-      <div className="flex flex-col justify-center items-center px-10">
+      <div className="flex flex-col justify-center items-center px-10 pt-10 md:pt-20">
         <h1 className="text-5xl py-8 font-bold text-blue-500 dark:text-white">
           A D M I S S I O N <span className="text-black">P R O C E D U R E </span>
         </h1>
@@ -23,7 +23,7 @@ const Admission = () => {
             Nursery, 4+ years in KG-I, 5+ years in KG-II and 6+ years for class 1 standard
           </p>
         </div>
-        <Link to={"/admission-request"} className="-mt-4 mb-10 text-white bg-blue-500 hover:bg-white hover:text-blue-500 border-2 border-blue-500 duration-100 px-8 py-4 rounded-lg font-bold text-xl">
+        <Link to={"/admission-form"} className="-mt-4 mb-10 text-white bg-blue-500 hover:bg-white hover:text-blue-500 border-2 border-blue-500 duration-100 px-8 py-4 rounded-lg font-bold text-xl">
           Book A Seat
         </Link>
         

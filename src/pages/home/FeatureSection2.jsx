@@ -8,12 +8,6 @@ const features = [
   },
 
   {
-    title: "Message of Director",
-    description:
-      "The door to knowledge about the creatures around us can be opened by education, which is the sole powerful tool that has the power to transform any society. A well-educated person cannot harm either the nation or society. Through their knowledge, commitment, and passion, they consistently demonstrate the right way to live. Education is the only asset that cannot be stolen, and those who possess it cannot lose that asset if they share it.",
-  },
-
-  {
     title: "Vision",
     description:
       "To engender innovative, quality-driven global institutions which are reliable, affordable, replicable and ever-evolving models of excellence, empowered through people, systems and processes.",

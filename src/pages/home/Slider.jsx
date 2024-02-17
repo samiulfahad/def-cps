@@ -7,7 +7,7 @@ function Slider() {
     <Carousel className="rounded-xl w-full mx-auto h-screen" autoplay autoplayDelay={4000} loop>
       <div className="relative h-3/4 w-full">
         <img
-          src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+          src="https://i.postimg.cc/YqpwPPm6/Whats-App-Image-2024-02-14-at-20-11-07-c72945ad.jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
@@ -24,7 +24,7 @@ function Slider() {
       </div>
       <div className="relative h-3/4 w-full">
         <img
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+          src="https://i.postimg.cc/bNvQ3zL1/IMG-20200218-WA0013.jpg"
           alt="image 2"
           className="h-full w-full object-cover"
         />
@@ -41,7 +41,7 @@ function Slider() {
       </div>
       <div className="relative h-3/4 w-full">
         <img
-          src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+          src="https://i.postimg.cc/TYTkGM0P/IMG-20200218-WA0025.jpg"
           alt="image 3"
           className="h-full w-full object-cover"
         />
