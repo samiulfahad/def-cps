@@ -1,10 +1,21 @@
-import React from "react"
+import React from "react";
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
-    <section className="bg-blue-50">
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="bg-blue-50"
+    >
       <div className="flex flex-col justify-start items-center px-10 w-full md:w-4/5 mx-auto text-justify text-gray-700">
-        <div className="px-4 my-10 md:text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="px-4 my-10 md:text-center"
+        >
           <p className="mb-2 text-lg font-semibold text-blue-500 dark:text-gray-400">About Us</p>
           <h2 className="pb-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">What we do</h2>
           <div className="flex w-32 mt-1 overflow-hidden rounded md:mx-auto">
@@ -12,9 +23,14 @@ const AboutUs = () => {
             <div className="flex-1 h-2 bg-blue-400"></div>
             <div className="flex-1 h-2 bg-blue-300"></div>
           </div>
-        </div>
+        </motion.div>
         
-        <div className="mb-20">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mb-20"
+        >
           <p>
             The foundations are important in edification since it is a lifelong cognitive process. The art of good
             living, or making the most of human life, depends on the objectives stated, the poses adopted, the abilities
@@ -32,12 +48,10 @@ const AboutUs = () => {
             socioeconomic issues and a lack of adequate infrastructure. Let’s work together to create role models with
             creative ideas and a vision to advance humanity and carry out the Almighty's will for them.
           </p>
-        </div>
-
-        
+        </motion.div>
       </div>
-    </section>
-  )
-}
+    </motion.section>
+  );
+};
 
-export default AboutUs
+export default AboutUs;

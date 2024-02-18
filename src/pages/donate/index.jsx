@@ -1,8 +1,14 @@
-import React from "react"
+import React from "react";
+import { motion } from "framer-motion";
 
 const Donate = () => {
   return (
-    <section className="relative overflow-hidden">
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+      className="relative overflow-hidden"
+    >
       <div
         className="relative flex items-center justify-center w-full text-center bg-center bg-cover"
         style={{ backgroundImage: "url(https://i.postimg.cc/VvvPKn0x/IMG-20190407-085757.jpg)", height: "600px" }}
@@ -28,8 +34,8 @@ const Donate = () => {
           </div>
         </div>
       </div>
-    </section>
-  )
-}
+    </motion.section>
+  );
+};
 
-export default Donate
+export default Donate;

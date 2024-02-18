@@ -1,14 +1,25 @@
-import React from "react"
-import TableRow from "./TableRow"
-import ScrollingText from "./ScrollingText"
+import React from "react";
+import { motion } from "framer-motion";
+import TableRow from "./TableRow";
+import ScrollingText from "./ScrollingText";
 
 const Notice = () => {
   return (
-    <section className="min-h-screen bg-blue-50 ">
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="min-h-screen bg-blue-50"
+    >
       <div className="max-w-4xl mx-auto">
         <ScrollingText />
       </div>
-      <div className="items-center lg:flex font-poppin pb-20">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+        className="items-center lg:flex font-poppin pb-20"
+      >
         <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
           <div className="pt-4 rounded shadow bg-white">
             <div className="flex px-6 pb-4 border-b">
@@ -16,13 +27,6 @@ const Notice = () => {
             </div>
             <div className="p-4 overflow-x-auto">
               <table className="w-full table-auto">
-                {/* <thead>
-                <tr className="text-lg text-left text-gray-500">
-                  <th className="px-6 pb-3 font-medium">Date </th>
-                  <th className="px-6 pb-3 font-medium ">Action </th>
-                  <th className="px-6 pb-3 font-medium"> Title </th>
-                </tr>
-              </thead> */}
                 <tbody>
                   <TableRow bg="0" date="12/02/24" title="Assignment for className 5" />
                   <TableRow bg="1" date="10/02/24" title="Exam Fee for className 4" />
@@ -33,9 +37,9 @@ const Notice = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  )
-}
+      </motion.div>
+    </motion.section>
+  );
+};
 
-export default Notice
+export default Notice;
