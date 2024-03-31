@@ -36,8 +36,8 @@ const MissionSection = () => (
                 className="relative z-40 object-cover w-full h-full rounded"
               />
             </div>
-            <div className="flex justify-center items-center">
-              <div className="flex flex-wrap">
+            <div className="flex justify-center items-center content-center">
+              <div className="flex flex-wrap justify-center items-center content-center">
                 <InfoCard
                   icon={
                     <svg

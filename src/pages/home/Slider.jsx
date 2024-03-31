@@ -1,4 +1,4 @@
-import { Carousel, Typography, Button } from "@material-tailwind/react"
+import { Carousel, Typography } from "@material-tailwind/react"
 import { Link } from "react-router-dom"
 
 function Slider() {

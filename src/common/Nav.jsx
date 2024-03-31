@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <>
       <section>
-        <nav className="flex justify-between bg-indigo-200 md:hidden mt-8 p-8">
+        <nav className="flex justify-between bg-indigo-200 md:hidden pb-4 pt-6 px-6">
           <Link to={"/"} className="">
             <p className="text-lg font-bold">City Public School, Durgapur</p>
             <p>Jemua, Durgapur, WB, India</p>
