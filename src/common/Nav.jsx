@@ -16,8 +16,10 @@ const Nav = () => {
       <section>
         <nav className="flex justify-between bg-blue-gray-400 md:hidden pb-4 pt-6 px-6">
           <Link to={"/"} className="text-white">
-            <p className="text-lg font-bold">City Public School, Durgapur</p>
-            <p>Jemua, Durgapur, WB, India</p>
+            <div onClick={()=> seIsOpen(false)}>
+              <p className="text-lg font-bold">City Public School, Durgapur</p>
+              <p>Jemua, Durgapur, WB, India</p>
+            </div>
           </Link>
           <div>
             <img src="/images/logo.svg" alt="" />
