@@ -7,6 +7,7 @@ import MissionSection from "./Mission"
 import FAQSection from "./FAQ"
 import TestimonialsSection from "./Testimonial"
 import { Messages } from "./Messages"
+import Donate from "./Donate"
 const Home = () => {
   return (
     <>
@@ -18,7 +19,8 @@ const Home = () => {
       <Messages/>
       <FeatureSection2 />
       <TestimonialsSection/>
-      <FAQSection/>
+      <Donate/>
+      {/* <FAQSection/> */}
 
     </>
   )

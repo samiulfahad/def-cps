@@ -38,7 +38,7 @@ const Staff = () => {
   return (
     <section className="flex items-center py-24 bg-stone-100 font-poppins dark:bg-gray-800">
       <div className="container mx-auto">
-        <h2 className="mb-12 text-4xl font-bold text-center text-gray-800 dark:text-gray-200">Meet The Teaching Staff</h2>
+        <h2 className="mb-12 text-xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-200">Meet The Teaching Staff</h2>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -51,6 +51,7 @@ const Staff = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="px-4"
             >
               <Member
                 name={member.name}

@@ -2,16 +2,16 @@ import React from "react"
 
 const MissionSection = () => (
   <section className="py-10 lg:py-20 bg-stone-100 font-poppins dark:bg-gray-800">
-    <div className="w-4/5 py-4 mx-auto lg:py-6 md:px-6">
+    <div className="w-full md:w-4/5 py-4 mx-auto lg:py-6 md:px-6">
       <div className="flex flex-wrap">
-        <div className="px-4 mb-10 lg:mb-0">
+        <div className="px-0 md:px-4 mb-10 lg:mb-0">
           <div className="">
             <div className="px-4 text-center pl-4 mb-6">
               <h1 className="mt-2 text-center text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
                 What We Do
               </h1>
             </div>
-            <div className="min-w-5xl">
+            <div className="w-full md:w-5xl">
               <p className="px-4 text-justify mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
                 Edification is a lifelong cognition process and the foundations matter. Making the best of human life,
                 the art of good living, depends on the goals set, postures composed, skills and aptitudes developed and
@@ -29,6 +29,13 @@ const MissionSection = () => (
               </p>
             </div>
 
+            <div className="w-full md:hidden px-4 mb-10 lg:w-1/2 lg:mb-0">
+              <img
+                src="https://i.postimg.cc/65hmG5qR/IMG-20220512-WA0016.jpg"
+                alt=""
+                className="relative z-40 object-cover w-full h-full rounded"
+              />
+            </div>
             <div className="flex justify-center items-center">
               <div className="flex flex-wrap">
                 <InfoCard
@@ -103,7 +110,7 @@ const MissionSection = () => (
                   description="Daily Class"
                 />
               </div>
-              <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+              <div className="w-full hidden md:block px-4 mb-10 lg:w-1/2 lg:mb-0">
                 <img
                   src="https://i.postimg.cc/65hmG5qR/IMG-20220512-WA0016.jpg"
                   alt=""

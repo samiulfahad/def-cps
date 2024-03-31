@@ -15,7 +15,7 @@ const Admission = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-5xl py-8 font-bold text-blue-500 dark:text-white"
+          className="text-xl md:text-5xl text-center py-8 font-bold text-blue-500 dark:text-white"
         >
           A D M I S S I O N <span className="text-black">P R O C E D U R E </span>
         </motion.h1>

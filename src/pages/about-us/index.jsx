@@ -16,8 +16,8 @@ const AboutUs = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="px-4 my-10 md:text-center"
         >
-          <p className="mb-2 text-lg font-semibold text-blue-500 dark:text-gray-400">About Us</p>
-          <h2 className="pb-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">What we do</h2>
+          <p className="mb-2 text-center text-lg font-semibold text-blue-500 dark:text-gray-400">About Us</p>
+          <h2 className="pb-2 text-center text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">What we do</h2>
           <div className="flex w-32 mt-1 overflow-hidden rounded md:mx-auto">
             <div className="flex-1 h-2 bg-blue-200"></div>
             <div className="flex-1 h-2 bg-blue-400"></div>

@@ -7,7 +7,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="flex items-center min-h-screen bg-gradient-to-r from-gray-50 to-blue-50 font-poppins dark:from-gray-900 dark:to-gray-900"
+      className="flex  pt-20 md:pt-0 items-center min-h-screen bg-gradient-to-r from-gray-50 to-blue-50 font-poppins dark:from-gray-900 dark:to-gray-900"
     >
       <div className="-mt-20 justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">
         <div className="flex flex-wrap items-center justify-center -mx-4">
