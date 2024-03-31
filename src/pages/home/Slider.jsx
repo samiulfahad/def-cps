@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Slider() {
   return (
     
-    <Carousel className="rounded-xl w-full mx-auto h-screen" autoplay autoplayDelay={4000} loop>
+    <Carousel className="rounded-xl -z-10 -mt-2 md:-mt-2 w-full mx-auto h-screen" autoplay autoplayDelay={4000} loop>
       <div className="relative h-3/4 w-full">
         <img
           src="https://i.postimg.cc/YqpwPPm6/Whats-App-Image-2024-02-14-at-20-11-07-c72945ad.jpg"

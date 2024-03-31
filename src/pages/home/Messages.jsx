@@ -8,7 +8,7 @@ export const Messages = () => {
           <h1 className="mb-4 text-3xl font-bold dark:text-white">Message of Director</h1>
         </div>
         <div>
-          <div className="relative px-4 py-12 mb-20 text-center bg-white rounded shadow md:px-20 md:py-20 dark:bg-gray-700">
+          <div className="relative px-4 py-12 mb-20 text-center bg-white rounded shadow md:px-20 md:py-20">
             <div className="z-20 max-w-xl p-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -26,10 +26,10 @@ export const Messages = () => {
                 lose that asset if they share it.
               </p>
               <h2 className="text-lg font-bold leading-9 text-black dark:text-white">Munshi Yousuf Alam</h2>
-              <span className="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
+              <span className="block text-xs font-semibold text-blue-gray-500 uppercase">
                 Director
               </span>
-              <div className="absolute inline-block w-32 h-32 mb-3 overflow-hidden text-xs text-white translate-x-1/2 bg-blue-500 rounded right-1/2 -bottom-20">
+              <div className="absolute inline-block w-32 h-32 mb-3 overflow-hidden text-xs text-white translate-x-1/2 bg-blue-gray-500 rounded right-1/2 -bottom-20">
                 <img
                   className="object-cover w-full h-full transition-all hover:scale-110"
                   src="https://i.postimg.cc/bNvQ3zL1/IMG-20200218-WA0013.jpg"

@@ -9,12 +9,12 @@ const TableRow = ({ bg, date, title }) => {
   const bgClass = bgIndex % 2 === 0 ? "text-md bg-gray-100" : "text-md bg-white";
 
   return (
-    <tr className={bgClass}>
-      <td className="px-6 py-5 font-medium">{date}</td>
-      <td className="px-6">
-        <Link className="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg" to="#">View</Link>
+    <tr className={bgClass+ " w-full overflow-x-scroll"}>
+      <td className="px-6 font-medium">{date}</td>
+      <td className="px-6 py-4">
+        <Link className="bg-blue-gray-500 text-white font-bold px-4 py-2 rounded-lg" to="#">View</Link>
       </td>
-      <td className="px-6 py-5 font-medium ">{title}</td>
+      <td className="px-6 py-4 text-center mx-auto w-full font-medium ">{title}</td>
     </tr>
   );
 }

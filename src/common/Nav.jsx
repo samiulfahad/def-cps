@@ -14,8 +14,8 @@ const Nav = () => {
   return (
     <>
       <section>
-        <nav className="flex justify-between bg-indigo-200 md:hidden pb-4 pt-6 px-6">
-          <Link to={"/"} className="">
+        <nav className="flex justify-between bg-blue-gray-400 md:hidden pb-4 pt-6 px-6">
+          <Link to={"/"} className="text-white">
             <p className="text-lg font-bold">City Public School, Durgapur</p>
             <p>Jemua, Durgapur, WB, India</p>
           </Link>
@@ -29,7 +29,7 @@ const Nav = () => {
           </button>
         </nav>
         {isOpen ? (
-          <div className="bg-indigo-600 rounded-xl opacity-99 mx-auto mt-24 my-20 inset-0 z-20 absolute flex flex-col h-fit pb-4">
+          <div className="bg-blue-gray-500 rounded-xl opacity-99 mx-auto mt-24 my-20 inset-0 z-20 absolute flex flex-col h-fit pb-4">
             <div className="flex gap-y-4 flex-col justify-center items-center pt-10 text-lg font-bold text-white ">
               {NavList.map((item, index) => (
                 <>
@@ -52,7 +52,7 @@ const Nav = () => {
 
       {/* Laptop Nav */}
       <section>
-        <div className="hidden md:block py-6 px-20 pr-40 shadow-lg">
+        <div className="hidden z-10 bg-blue-gray-100 md:block py-6 px-20 pr-40 shadow-lg">
           <div className="flex justify-between items-center">
             <Link to={"/"}>
               <p className="text-2xl font-bold">City Public School</p>

@@ -7,13 +7,13 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="flex  pt-20 md:pt-0 items-center min-h-screen bg-gradient-to-r from-gray-50 to-blue-50 font-poppins dark:from-gray-900 dark:to-gray-900"
+      className="flex  pt-20 md:pt-0 items-center min-h-screen bg-gradient-to-r from-gray-50 to-blue-50 font-poppins"
     >
       <div className="-mt-20 justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">
         <div className="flex flex-wrap items-center justify-center -mx-4">
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-sm mx-auto">
-              <div className="p-6 mb-6 text-center bg-white border rounded-md shadow dark:border-gray-800 dark:bg-gray-800">
+              <div className="p-6 mb-6 text-center bg-white border rounded-md shadow">
                 <form action="">
                   <div className="mb-6">
                     <h2 className="text-xl font-bold text-gray-700 dark:text-gray-400">
@@ -23,7 +23,7 @@ const Contact = () => {
                   <div className="flex flex-wrap mb-4 -mx-2">
                     <div className="w-full px-2 mb-4 lg:mb-0 lg:w-1/2">
                       <input
-                        className="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
+                        className="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md dark:text-gray-400"
                         type="text"
                         placeholder="First Name.."
                         required
@@ -31,7 +31,7 @@ const Contact = () => {
                     </div>
                     <div className="w-full px-2 lg:w-1/2">
                       <input
-                        className="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
+                        className="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md dark:text-gray-400"
                         type="text"
                         placeholder="Last Name.."
                         required
@@ -39,7 +39,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <input
-                    className="w-full px-3 py-2 mb-4 leading-loose bg-gray-100 border rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
+                    className="w-full px-3 py-2 mb-4 leading-loose bg-gray-100 border rounded-md dark:text-gray-400"
                     type="email"
                     placeholder="abc@gmail.com"
                     required
@@ -52,7 +52,7 @@ const Contact = () => {
                     className="block w-full px-4 mb-4 leading-tight text-gray-700 bg-gray-100 border rounded dark:placeholder-gray-400 py-7 dark:text-gray-400 dark:border-gray-800 dark:bg-gray-700"
                   ></textarea>
                   <button
-                    className="w-full py-4 text-sm font-bold leading-normal text-white transition-all duration-300 bg-blue-600 rounded-md dark:bg-blue-500 dark:hover:bg-blue-600 hover:bg-blue-700"
+                    className="w-full py-4 text-sm font-bold leading-normal text-white transition-all duration-300 bg-blue-gray-600 rounded-md hover:bg-blue-gray-700"
                   >
                     Send Message
                   </button>
@@ -62,7 +62,7 @@ const Contact = () => {
           </div>
           <div className="max-w-2xl px-4 mb-16 lg:mb-0 lg:w-1/2 lg:mr-0 lg:ml-auto">
             <h2 className="mb-6 text-3xl font-bold dark:text-gray-400">
-              Get In <span className="text-blue-600 dark:text-blue-400">Touch</span>
+              Get In <span className="text-blue-gray-600">Touch</span>
             </h2>
             <div className="flex flex-col space-y-4 mb-6 text-gray-400 dark:text-gray-400">
               <div className="flex items-center">

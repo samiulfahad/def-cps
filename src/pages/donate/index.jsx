@@ -26,7 +26,7 @@ const Donate = () => {
                 on education. Thank you for your support!
               </p>
               <div className="flex flex-wrap justify-center">
-                <button className="w-full px-6 py-3 text-sm font-semibold text-white bg-blue-600 rounded md:w-auto md:ml-2 hover:bg-blue-700">
+                <button className="w-full px-6 py-3 text-sm font-semibold text-white bg-blue-gray-600 rounded md:w-auto md:ml-2 hover:bg-blue-gray-700">
                   Donate Now
                 </button>
               </div>

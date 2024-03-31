@@ -7,13 +7,13 @@ const FeatureSection = () => (
         <div className="w-full lg:w-1/2">
           <div className="relative">
             <h1 className="absolute -top-16 left-0 text-[50px] font-bold opacity-5 md:block hidden">DEF-CPS</h1>
-            <h1 className="text-5xl font-bold dark:text-white">
-              The Way <span className="text-blue-500">We Teach</span>
+            <h1 className="text-xl text-center md:text-5xl font-bold dark:text-white">
+              The Way <span className="text-blue-gray-500">We Teach</span>
             </h1>
-            <div className="flex w-24 mt-1 mb-6 overflow-hidden rounded md:mb-14">
-              <div className="flex-1 h-2 bg-blue-200"></div>
-              <div className="flex-1 h-2 bg-blue-400"></div>
-              <div className="flex-1 h-2 bg-blue-600"></div>
+            <div className="flex w-24 mx-auto mt-1 mb-6 overflow-hidden rounded md:mb-14">
+              <div className="flex-1 h-2 bg-blue-gray-200"></div>
+              <div className="flex-1 h-2 bg-blue-gray-400"></div>
+              <div className="flex-1 h-2 bg-blue-gray-600"></div>
             </div>
           </div>
           <p className="mb-4 text-base text-gray-500 text-justify lg:mb-16">
@@ -36,7 +36,7 @@ const FeatureSection = () => (
 
 const FeatureCard = ({ title, icon }) => (
   <div className="w-full p-8 text-center transition-all bg-white rounded shadow dark:bg-gray-700 hover:shadow-lg">
-    <div className="inline-block p-4 mb-4 bg-blue-400 rounded-full">{icon}</div>
+    <div className="inline-block p-4 mb-4 bg-blue-gray-400 rounded-full">{icon}</div>
     <h3 className="text-lg font-semibold text-black dark:text-white">{title}</h3>
   </div>
 )

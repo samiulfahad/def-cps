@@ -10,21 +10,21 @@ const Admission = () => {
       transition={{ duration: 0.5 }}
       className="bg-blue-50 min-h-screen"
     >
-      <div className="flex flex-col justify-center items-center px-10 pt-10 md:pt-20">
+      <div className="w-full flex flex-col justify-center items-center px-10 pt-10 md:pt-20">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-xl md:text-5xl text-center py-8 font-bold text-blue-500 dark:text-white"
+          className="text-lg w-full md:text-5xl text-center py-8 font-bold text-blue-gray-500 dark:text-white"
         >
           A D M I S S I O N <span className="text-black">P R O C E D U R E </span>
         </motion.h1>
-        <div className="w-full px-10 md:max-w-5xl text-gray-600">
+        <div className="w-full px-2 md:px-10 md:max-w-5xl text-gray-600">
           <motion.p
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-justify"
+            className="text-justify w-full"
           >
             Admission to the City Public School is regulated under the norms of the Durgapur Educational Foundation (DEF
             Trust) and the CBSE board requirements. The academic year begins in April and ends in March and admissions
@@ -52,7 +52,7 @@ const Admission = () => {
         </div>
         <Link
           to={"/admission-form"}
-          className="-mt-4 mb-10 text-white bg-blue-500 hover:bg-white hover:text-blue-500 border-2 border-blue-500 duration-100 px-8 py-4 rounded-lg font-bold text-xl"
+          className="-mt-4 mb-10 text-white bg-blue-gray-500 hover:bg-white hover:text-blue-gray-500 border-2 border-blue-gray-500 duration-100 px-8 py-4 rounded-lg font-bold text-xl"
         >
           Book A Seat
         </Link>

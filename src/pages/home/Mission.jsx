@@ -128,7 +128,7 @@ const MissionSection = () => (
 const InfoCard = ({ icon, value, description }) => (
   <div className="px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
     <div className="flex flex-col justify-center items-center p-6 bg-white dark:bg-gray-900">
-      <span className="text-blue-500 dark:text-blue-400 text-center">{icon}</span>
+      <span className="text-blue-gray-500 dark:text-blue-400 text-center">{icon}</span>
       <p className="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">{value}</p>
       <h2 className="text-sm text-gray-700 dark:text-gray-400">{description}</h2>
     </div>

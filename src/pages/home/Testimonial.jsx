@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
         <div className="flex">
           <div className="flex flex-col justify-center items-center mx-auto md:grid md:grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((testimonial) => (
-              <div key={testimonial.id} className="relative mb-10 border-b-4 border-blue-500" href="#">
+              <div key={testimonial.id} className="relative mb-10 border-b-4 border-blue-gray-500" href="#">
                 <div className="z-20 pt-8 pb-5 text-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,18 +56,18 @@ const TestimonialsSection = () => {
                   </svg>
                   <div className="text-center">
                     <div className="relative inline-block w-32 h-32 mb-10 text-xs text-white rounded">
-                      <div className="absolute w-24 h-24 border-t-4 border-r-4 border-blue-400 -top-4 -right-4"></div>
+                      <div className="absolute w-24 h-24 border-t-4 border-r-4 border-blue-gray-400 -top-4 -right-4"></div>
                       <img
                         className="object-cover w-full h-full"
                         src={`https://i.postimg.cc/${testimonial.imageSrc}.jpg`}
                         alt=""
                       />
-                      <div className="absolute w-24 h-24 border-b-4 border-l-4 border-blue-400 -bottom-4 -left-4"></div>
+                      <div className="absolute w-24 h-24 border-b-4 border-l-4 border-blue-gray-400 -bottom-4 -left-4"></div>
                     </div>
                   </div>
-                  <p className="mb-4 text-base leading-7 text-gray-400">{testimonial.quote}</p>
+                  <p className="mb-4 text-base leading-7 text-justify text-gray-400">{testimonial.quote}</p>
                   <h2 className="text-lg font-bold leading-9 text-black dark:text-white">{testimonial.name}</h2>
-                  <span className="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
+                  <span className="block text-xs font-semibold text-blue-gray-500 uppercase dark:text-blue-300">
                     {testimonial.occupation}
                   </span>
                   <svg

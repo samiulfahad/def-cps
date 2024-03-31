@@ -22,7 +22,7 @@
     height: 3px;
     top: 0;
     left: 0;
-    background: #000;
+    background: #fff;
     transform: rotate(0);
     transition: all 0.5s;
   }
@@ -53,11 +53,11 @@
   }
   
   .btn  {
-    @apply px-4 py-2 rounded  text-white font-bold bg-blue-400
+    @apply px-4 py-2 rounded  text-white font-bold bg-blue-gray-500
   }
 
   .active  {
-    @apply px-4 py-2 rounded  text-white font-bold bg-blue-400
+    @apply px-4 py-2 rounded  text-white font-bold bg-blue-gray-700
   }
 
   /* Notification Animation Starting */

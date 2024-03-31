@@ -24,23 +24,23 @@ const FeatureSection2 = () => (
               DEF-CPS
             </div>
             <h1 className="text-3xl font-bold dark:text-white">
-              Our<span className="text-blue-500"> RULES AND REGULATIONS </span>{" "}
+              Our<span className="text-blue-gray-500"> RULES AND REGULATIONS </span>{" "}
             </h1>
             <div className="flex w-24 mt-1 mb-10 overflow-hidden rounded">
-              <div className="flex-1 h-2 bg-blue-200"></div>
-              <div className="flex-1 h-2 bg-blue-400"></div>
-              <div className="flex-1 h-2 bg-blue-600"></div>
+              <div className="flex-1 h-2 bg-blue-gray-200"></div>
+              <div className="flex-1 h-2 bg-blue-gray-400"></div>
+              <div className="flex-1 h-2 bg-blue-gray-600"></div>
             </div>
           </div>
           <div>
-            <p className="text-xl font-bold text-left text-blue-500">Timings</p>
+            <p className="text-xl font-bold text-left text-blue-gray-500">Timings</p>
             <p className="mb-16 text-base text-left text-gray-500">
               The school functions five days a week (Monday to Friday) from 8:00 AM to 1:30 PM. Students at Kindergarten
               finish school at 11:30 AM and grades 1 to upward finish by 1:30 PM
             </p>
           </div>
           <div className="-mt-16">
-            <p className="text-xl font-bold text-left text-blue-500">Attendance & Punctuality</p>
+            <p className="text-xl font-bold text-left text-blue-gray-500">Attendance & Punctuality</p>
             <p className="mb-16 text-base text-left text-gray-500">
               The school is strict about punctuality and attendance and any lack of it must be supported through
               adequate show of cause
@@ -48,7 +48,7 @@ const FeatureSection2 = () => (
           </div>
 
           <div className="-mt-16">
-            <p className="text-xl font-bold text-left text-blue-500">Discipline & Decorum</p>
+            <p className="text-xl font-bold text-left text-blue-gray-500">Discipline & Decorum</p>
             <p className="mb-16 text-base text-left text-gray-500">
               Students are expected to maintain right order and decorum throughout the school hours, discharging
               appropriate respect and decorum where it is due. Any unsolicited behaviour towards the staff and other

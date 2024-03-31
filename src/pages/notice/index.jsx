@@ -25,7 +25,7 @@ const Notice = () => {
             <div className="flex px-6 pb-4 border-b">
               <h2 className="text-xl font-bold">Notice Board</h2>
             </div>
-            <div className="p-4 overflow-x-auto">
+            <div className="w-auto p-4 overflow-x-auto">
               <table className="w-full table-auto">
                 <tbody>
                   <TableRow bg="0" date="12/02/24" title="Assignment for className 5" />

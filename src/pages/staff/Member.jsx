@@ -7,7 +7,7 @@ const Member = ({ name, role, description, imageSrc }) => {
         <div className="relative flex self-center flex-1 py-8 text-justify px-2 ml-0 bg-white border rounded shadow dark:border-gray-700 dark:bg-gray-700 lg:items-center lg:-ml-12">
           <div>
             <h2 className="mb-2 text-xl font-bold dark:text-gray-300">{name}</h2>
-            <p className="mb-4 text-sm text-blue-500 dark:text-blue-400">{role}</p>
+            <p className="mb-4 text-sm text-blue-gray-500">{role}</p>
             <p className="mb-4 text-sm text-gray-400 dark:text-gray-400">{description}</p>
           </div>
         </div>

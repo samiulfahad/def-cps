@@ -35,28 +35,28 @@ const FeatureGrid = () => {
   const fearures = [
     {
       title: "Certification",
-      bg: "bg-blue-400",
+      bg: "bg-blue-gray-400",
       description:
         "Welcome to City Public School! Our certified teachers ensure your child's academic journey begins on a solid foundation. Trust that your child is in the hands of qualified professionals dedicated to fostering a love for learning.",
       iconColor: "text-blue-700",
     },
     {
       title: "Certified Teachers",
-      bg: "bg-blue-700",
+      bg: "bg-blue-gray-700",
       description:
         "Our certified kindergarten teachers are passionate about early childhood development, creating engaging learning experiences that foster a love for learning. Choose us for a kindergarten experience where certified teachers prioritize your child's growth.",
       iconColor: "text-red-700",
     },
     {
       title: "Special Education",
-      bg: "bg-blue-400",
+      bg: "bg-blue-gray-400",
       description:
         "At City Public School, we embrace diversity. Our special education programs provide personalized support, creating an inclusive environment. Join us in creating a community where every child thrives academically, socially, and emotionally.",
       iconColor: "text-blue-700",
     },
   ]
   return (
-    <div className=" md:grid md:grid-cols-1 lg:grid-cols-3 w-4/5 -mt-32 md:mt-0 md:w-2/3 mx-auto  justify-center items-center relative lg:-mt-[90px] z-10 rounded">
+    <div className=" md:grid md:grid-cols-1 lg:grid-cols-3 w-4/5 -mt-32 md:mt-0 md:w-2/3 mx-auto  justify-center items-center relative lg:-mt-[140px] z-10 rounded">
       {fearures.map((fearure, index) => (
         <FeatureCard
           key={index}
@@ -71,7 +71,7 @@ const FeatureGrid = () => {
 }
 
 const FeatureCard = ({ bgColor, iconColor, title, description }) => (
-  <div className={`w-full p-8 mb-10 text-center transition-all rounded shadow lg:mb-0 ${bgColor}`}>
+  <div className={`w-full relative p-8 mb-10 text-center transition-all rounded shadow lg:mb-0 ${bgColor}`}>
     <div className="inline-block p-4 mb-6 -mt-16 bg-gray-100 rounded-full">
       {iconColor === "text-blue-700" && (
         <svg
