@@ -12,7 +12,7 @@ const MissionSection = () => (
               </h1>
             </div>
             <div className="w-full md:w-5xl">
-              <p className="px-4 text-justify mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+              <p className="px-8 text-justify mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
                 Edification is a lifelong cognition process and the foundations matter. Making the best of human life,
                 the art of good living, depends on the goals set, postures composed, skills and aptitudes developed and
                 the training given. The desire to prosper and excel should emanate from the conviction to accommodate a
@@ -126,7 +126,7 @@ const MissionSection = () => (
 )
 
 const InfoCard = ({ icon, value, description }) => (
-  <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
+  <div className="px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
     <div className="flex flex-col justify-center items-center p-6 bg-white dark:bg-gray-900">
       <span className="text-blue-500 dark:text-blue-400 text-center">{icon}</span>
       <p className="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">{value}</p>
