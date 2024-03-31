@@ -56,7 +56,7 @@ const FeatureGrid = () => {
     },
   ]
   return (
-    <div className=" md:grid md:grid-cols-1 lg:grid-cols-3 w-4/5 -mt-32 md:mt-0 md:w-2/3 mx-auto  justify-center items-center relative lg:-mt-[140px] z-10 rounded">
+    <div className=" md:grid md:grid-cols-1 lg:grid-cols-3 w-4/5 -mt-32  md:w-2/3 mx-auto  justify-center items-center relative lg:-mt-[110px] z-10 rounded">
       {fearures.map((fearure, index) => (
         <FeatureCard
           key={index}
@@ -72,7 +72,7 @@ const FeatureGrid = () => {
 
 const FeatureCard = ({ bgColor, iconColor, title, description }) => (
   <div className={`w-full relative p-8 mb-10 text-center transition-all rounded shadow lg:mb-0 ${bgColor}`}>
-    <div className="inline-block p-4 mb-6 -mt-16 bg-gray-100 rounded-full">
+    <div className="inline-block p-4 mb-6 -mt-16 bg-blue-gray-200 rounded-full">
       {iconColor === "text-blue-700" && (
         <svg
           xmlns="http://www.w3.org/2000/svg"
