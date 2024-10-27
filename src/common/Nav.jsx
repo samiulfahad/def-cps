@@ -54,13 +54,14 @@ const Nav = () => {
 
       {/* Laptop Nav */}
       <section>
-        <div className="hidden z-10 bg-blue-gray-100 md:block py-6 px-20 pr-40 shadow-lg">
+        <div className="hidden min-w-full z-10 bg-blue-gray-100 md:block py-4 px-16 shadow-lg">
           <div className="flex justify-between items-center">
-            <Link to={"/"}>
-              <p className="text-2xl font-bold">City Public School</p>
-              <p>Jemua, Durgapur-713209, WB, India</p>
+            <Link to={"/"} className="-ml-10">
+              <p className="text-xl font-bold">City Public School</p>
+              <p className="text-[12px] pr-2 whitespace-nowrap">Village:Jemua, Durgapur-713206, WB</p>
+              <p className="text-[12px] pr-2 italic whitespace-nowrap">A unit of Durgapur Educational Foundation</p>
             </Link>
-            <div className="flex justify-center items-center gap-x-10 font-bold text-center">
+            <div className="flex mr-20 justify-center items-center gap-x-10 font-bold text-center">
               {NavList.map((item, index) => (
                 <NavLink to={item.to} key={index}>
                   {item.label}
