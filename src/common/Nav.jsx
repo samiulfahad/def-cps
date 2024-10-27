@@ -21,7 +21,7 @@ const Nav = () => {
             <div onClick={() => seIsOpen(false)}>
               <p className="text-lg font-bold">City Public School, Durgapur</p>
               <p className="text-[12px] pr-2 whitespace-nowrap">Village:Jemua, Durgapur-713206, WB</p>
-              <p className="text-[12px] pr-2 italic whitespace-nowrap">A unit of Durgapur Educational Foundation</p>
+              <p className="text-[11px] pr-2 italic whitespace-nowrap">A unit of Durgapur Educational Foundation</p>
             </div>
           </Link>
           <div>
@@ -62,7 +62,7 @@ const Nav = () => {
             <Link to={"/"} className="-ml-10">
               <p className="text-xl font-bold">City Public School</p>
               <p className="text-[12px] pr-2 whitespace-nowrap">Village:Jemua, Durgapur-713206, WB</p>
-              <p className="text-[12px] pr-2 italic whitespace-nowrap">A unit of Durgapur Educational Foundation</p>
+              <p className="text-[11px] pr-2 italic whitespace-nowrap">A unit of Durgapur Educational Foundation</p>
             </Link>
             <div className="flex mr-20 justify-center items-center gap-x-10 font-bold text-center">
               {NavList.map((item, index) => (
