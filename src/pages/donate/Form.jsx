@@ -5,7 +5,7 @@ import React from "react";
 const Form = (props) => {
   return (
     <section>
-      <div className="px-10  bg-gray-200 shadow-lg rounded-md">
+      <div className="px-10 bg-gray-200 shadow-lg rounded-md">
         <div className="flex flex-col justify-center items-center">
           <div>
             <img
@@ -15,8 +15,8 @@ const Form = (props) => {
             />
           </div>
           <div className="flex flex-col justify-start items-start pb-10 bt-6">
-            <p className="whitespace-nowrap">
-              Account Holder Name: <span className="font-bold">Durgapur Educational Foundation</span>{" "}
+            <p className="text-left">
+              Account Holder Name: <span className="font-bold ">Durgapur Educational Foundation</span>{" "}
             </p>
             <p>
               Bank Name: <span className="font-bold">Punjab & Sind Bank</span>{" "}

@@ -1,24 +1,27 @@
-import React, { useState } from "react"
-import { Link, NavLink } from "react-router-dom"
-import NavList from "./NavList"
+/** @format */
+
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import NavList from "./NavList";
 
 const Nav = () => {
-  const [isOpen, seIsOpen] = useState(false)
+  const [isOpen, seIsOpen] = useState(false);
   const MobileMenuH = () => {
-    seIsOpen((old) => !isOpen)
-  }
+    seIsOpen((old) => !isOpen);
+  };
 
-  const menuOpen = "block hamburger open"
-  const menuClosed = "block hamburger"
+  const menuOpen = "block hamburger open";
+  const menuClosed = "block hamburger";
 
   return (
     <>
       <section>
         <nav className="flex justify-between bg-blue-gray-400 md:hidden pb-4 pt-6 px-6">
           <Link to={"/"} className="text-white">
-            <div onClick={()=> seIsOpen(false)}>
+            <div onClick={() => seIsOpen(false)}>
               <p className="text-lg font-bold">City Public School, Durgapur</p>
-              <p>Jemua, Durgapur, WB, India</p>
+              <p className="text-[12px] pr-2 whitespace-nowrap">Village:Jemua, Durgapur-713206, WB</p>
+              <p className="text-[12px] pr-2 italic whitespace-nowrap">A unit of Durgapur Educational Foundation</p>
             </div>
           </Link>
           <div>
@@ -72,7 +75,7 @@ const Nav = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
