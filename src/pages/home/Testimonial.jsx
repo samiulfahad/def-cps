@@ -31,7 +31,7 @@ const TestimonialsSection = () => {
   ]
 
   return (
-    <section className="flex items-center bg-white dark:bg-gray-800">
+    <section className="flex md:mx-48 items-center bg-white dark:bg-gray-800">
       <div className="p-4 mx-auto max-w-7xl  py-10">
         <div className="mb-20 text-center">
           <h1 className="mb-4 text-3xl font-bold dark:text-white"> Testimonials </h1>

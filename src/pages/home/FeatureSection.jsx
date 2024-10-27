@@ -1,7 +1,7 @@
 import React from "react"
 
 const FeatureSection = () => (
-  <section className="flex items-center justify-center bg-gray-100 dark:bg-gray-800 ">
+  <section className="flex md:px-28 items-center justify-center bg-gray-100 dark:bg-gray-800 ">
     <div className="px-4 py-10 mx-auto max-w-7xl">
       <div className="flex flex-wrap items-center gap-8 lg:flex-nowrap">
         <div className="w-full lg:w-1/2">

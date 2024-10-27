@@ -15,7 +15,7 @@ const features = [
 ]
 
 const FeatureSection2 = () => (
-  <section className="flex items-center justify-center bg-gray-100 dark:bg-gray-800 ">
+  <section className="flex md:px-32 items-center justify-center bg-gray-100 dark:bg-gray-800 ">
     <div className="px-4 py-10 mx-auto max-w-7xl">
       <div className="max-w-xl mx-auto">
         <div className="text-center">
@@ -75,17 +75,8 @@ const FeatureSection2 = () => (
 
 const FeatureCard = ({ title, description, bgColor, iconColor }) => (
   <div className={`w-full p-8 mb-5 text-center transition-all rounded shadow hover:shadow-lg ${bgColor}`}>
-    <div className="inline-block p-4 mb-6 -mt-16 rounded-full">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
-        fill="currentColor"
-        className={iconColor}
-        viewBox="0 0 16 16"
-      >
-        {/* Replace with the actual path data for your SVG icon */}
-      </svg>
+    <div className="inline-block p-4 mb-6 -mt-32 rounded-full">
+      
     </div>
     <h3 className="mb-4 text-2xl font-semibold dark:text-white">{title}</h3>
     <p className="text-base text-gray-500 dark:text-gray-400">{description}</p>
