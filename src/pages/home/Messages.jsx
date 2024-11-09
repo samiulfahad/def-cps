@@ -25,14 +25,14 @@ export const Messages = () => {
                 right way to live. Education is the only asset that cannot be stolen, and those who possess it cannot
                 lose that asset if they share it.
               </p>
-              <h2 className="text-lg font-bold leading-9 text-black dark:text-white">Munshi Yousuf Alam</h2>
+              <h2 className="text-lg font-bold leading-9 text-black dark:text-white">Munshi Yusuf Alam</h2>
               <span className="block text-xs font-semibold text-blue-gray-500 uppercase">
                 Director
               </span>
               <div className="absolute inline-block w-32 h-32 mb-3 overflow-hidden text-xs text-white translate-x-1/2 bg-blue-gray-500 rounded right-1/2 -bottom-20">
                 <img
                   className="object-cover w-full h-full transition-all hover:scale-110"
-                  src="https://i.postimg.cc/bNvQ3zL1/IMG-20200218-WA0013.jpg"
+                  src="https://i.postimg.cc/CLcfB120/Whats-App-Image-2024-11-10-at-00-16-11-bd6078d7.jpg"
                   alt=""
                 />
               </div>
