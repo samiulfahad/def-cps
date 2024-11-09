@@ -7,7 +7,7 @@ function Slider() {
     <Carousel className="w-full mx-auto h-screen" autoplay autoplayDelay={4000} loop>
       <div className="relative h-3/4 w-full">
         <img
-          src="https://i.postimg.cc/YqpwPPm6/Whats-App-Image-2024-02-14-at-20-11-07-c72945ad.jpg"
+          src="https://i.postimg.cc/P512n1xy/Whats-App-Image-2024-11-10-at-00-03-21-acbd72e4.jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
@@ -24,7 +24,7 @@ function Slider() {
       </div>
       <div className="relative h-3/4 w-full">
         <img
-          src="https://i.postimg.cc/bNvQ3zL1/IMG-20200218-WA0013.jpg"
+          src="https://i.postimg.cc/qvpj0z3d/Whats-App-Image-2024-11-10-at-00-09-32-315a28a1.jpg"
           alt="image 2"
           className="h-full w-full object-cover"
         />
@@ -41,7 +41,7 @@ function Slider() {
       </div>
       <div className="relative h-3/4 w-full">
         <img
-          src="https://i.postimg.cc/TYTkGM0P/IMG-20200218-WA0025.jpg"
+          src="https://i.postimg.cc/qqfxFRTS/Whats-App-Image-2024-11-10-at-00-11-39-0b52b6bd.jpg"
           alt="image 3"
           className="h-full w-full object-cover"
         />

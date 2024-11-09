@@ -8,7 +8,7 @@ const Member = ({ name, role, education, experience, extra, address, contact, em
       </div>
       <div className="relative flex self-center flex-1 p-4 text-justify px-2 ml-0 bg-white border rounded shadow dark:border-gray-700 dark:bg-gray-700 lg:items-center lg:-ml-12">
         <div className="p-4">
-          <h2 className="mb-2 text-xl font-bold dark:text-gray-300">{name}</h2>
+          <h2 className="text-xl font-bold dark:text-gray-300">{name}</h2>
           <p className="text-md font-bold text-blue-gray-500">{role}</p>
           <div className="text-sm text-justify text-blue-gray-500">
             {education && (
