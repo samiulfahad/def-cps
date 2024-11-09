@@ -4,10 +4,16 @@ import Member from "./Member";
 
 const Staff = () => {
   const members = [
+    
     {
-      name: "Sampa Shit",
+      name: "Wazda Tabassum ",
       role: "Teacher",
-      description: "Qualification: M A in Bengali. Special Qualification: 3 year's Diploma From Lady Brabourne 2 year's Experience as an Assistant Teacher in Bengali at Gorabari Sisu Niketan.",
+      education: "Masters in Political Science (YBN University), B.Ed from Baba Saheb Ambedkar Education University",
+      experience: "Working as a teacher for 12 years",
+      extra: "Computer Teachers Training Course, Diploma in Advance Software, Montessori Teacher's Training",
+      address: "13/9 Ranapratap road A-zone Durgapur -04",
+      contact: "6294581198",
+      email: "",      
       imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
       facebookLink: "#",
       twitterLink: "#",
@@ -17,22 +23,107 @@ const Staff = () => {
     {
       name: "Somashree Kar",
       role: "Teacher",
-      description: "Qualifications - B.A (History Honours) B.Ed from Burdwan University. Pursuing M.A from Burdwan University Extra Curriculum - Dance in Kathak, Diploma in Computer",
-      imageSrc: "https://i.postimg.cc/prZvVcm6/Whats-App-Image-2024-02-15-at-19-22-31-57bf7e95.jpg",
+      education: "B.A History Honours (Kazi Nazrul University ) [2017- 2020], B.ed from Durgapur institute of Management & Science (Burdwan University)[ 2020 - 2022], Pursuing M.A from Burdwan University",
+      extra: "Dance in Kathak, Diploma in Computer",
+      address: "Fuljhore ,Rabindrapally Durgapur - 06",
+      contact: "7602064256",
+      email: "",      
+      imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
       facebookLink: "#",
       twitterLink: "#",
       instagramLink: "#",
     },
 
     {
-      name: "Chaitali Banerjee",
+      name: "Sanchita Dey",
       role: "Teacher",
-      description: "N/A",
-      imageSrc: "https://i.postimg.cc/cL4d5Wvt/Whats-App-Image-2024-02-15-at-19-22-32-a26647fc.jpg",
+      education: "B.Sc(Botany), B.Ed,M.Sc(pursuing 2023-2025)",
+      experience: "Working as a teacher  for 2 years",
+      extra: "Diploma in Information and Technology Application, Diploma in Vocal Music",
+      address: "Mamra,Bidhanpally, Durgapur-06 ",
+      contact: "8918049743",
+      email:"",    
+      imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
       facebookLink: "#",
       twitterLink: "#",
       instagramLink: "#",
-    }
+    },
+
+    {
+      name: "Chaitali  Banerjee",
+      role: "Teacher",
+      education: "Masters  in History (Barddhaman  University)",
+      extra: "Diploma  in Computer  Application, Recitation",
+      address: "SP 25, Vastu Bihar  Complex, Durgapur-06",
+      contact: "8906694087",
+      email:"",    
+      imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+
+    {
+      name: "Rejina Khatun",
+      role: "Teacher",
+      education: "B.A. Honours in English, Pursuing M.A.(English) from Indra Gandhi National Open University",
+      extra: "Diploma in Computer",
+      experience:"Working as a teacher for 1 year",
+      address: "Vill+P.O -Amrai, Durgapur - 03",
+      contact: "7501484197",
+      email:"rejina.dgp99@gmail.com",    
+      imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+
+
+    {
+      name: "Sampa Shit",
+      role: "Teacher",
+      education: "M.A in Bengali",
+      extra: "3 Year's Diploma in Wark Education From Lady Brabourne",
+      experience:"Working as a teacher for 3 years",
+      address: "Sp-17, Vastu Bihar  Complex (Near B.C Roy Engeneering College) Jemua, Durgapur -6",
+      contact: "8170053325",
+      email:"",    
+      imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+
+    {
+      name: "Mala Mitra",
+      role: "Teacher",
+      education: "B.A passed (Bangali hons.), Pursuing D.El.Ed. From Illambazar D.El.Ed. College",
+      extra: "Customer Relation Management (CRM) Domestic, Non-Voice, Computer Knowledge",
+      experience:"Working as a teacher for 4 years",
+      address: "Vill+Po - Fuljhore, Durgapur",
+      contact: "6294404080",
+      email:"",    
+      imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
+
+    
+    {
+      name: "Aditi Chatterjee",
+      role: "Teacher",
+      education: "M. A in History",
+      extra: "Pre-primary teachers Training (D. I. C. M), 1 year Diploma in information and  technology applicational, Singing, Dancing",
+      experience:"",
+      address: "",
+      contact: "8170030899",
+      email:"",    
+      imageSrc: "https://i.postimg.cc/fTr7qzLJ/Whats-App-Image-2024-02-15-at-19-22-31-f920a970.jpg",
+      facebookLink: "#",
+      twitterLink: "#",
+      instagramLink: "#",
+    },
   ];
 
   return (
@@ -56,7 +147,12 @@ const Staff = () => {
               <Member
                 name={member.name}
                 role={member.role}
-                description={member.description}
+                education={member.education}
+                experience={member.experience}
+                extra={member.extra}
+                address={member.address}
+                contact={member.contact}
+                email={member.email}
                 imageSrc={member.imageSrc}
                 facebookLink={member.facebookLink}
                 twitterLink={member.twitterLink}
