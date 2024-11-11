@@ -118,7 +118,7 @@ const Staff = () => {
 
 
     {
-      name: "Rejina Khatun",
+      name: "Rejina Khatoon",
       role: "Teacher",
       education: "B.A. Honours in English, Pursuing M.A.(English) from Indra Gandhi National Open University",
       extra: "Diploma in Computer",
@@ -126,7 +126,7 @@ const Staff = () => {
       address: "Vill+P.O -Amrai, Durgapur - 03",
       contact: "7501484197",
       email:"rejina.dgp99@gmail.com",    
-      imageSrc: "https://i.postimg/fTr7qzLJ/Whats-App-Ima-02-15-at-19-22-31-f920a970.jpg",
+      imageSrc: "https://i.postimg.cc/G2Vv4XpW/Whats-App-Image-2024-11-11-at-23-06-06-9cea7825.jpg",
       facebookLink: "#",
       twitterLink: "#",
       instagramLink: "#",
