@@ -14,7 +14,7 @@ const Staff = () => {
       address: "13/9 Ranapratap road A-zone Durgapur -04",
       contact: "6294581198",
       email: "",      
-      imageSrc: "https://i.postimg.cc/Jh9g5RGY/Whats-App-Image-2024-11-09-at-23-38-55-7e82da50.jpg",
+      imageSrc: "https://i.postimg.cc/rs7hXPdT/Whats-App-Image-2024-11-16-at-23-06-52-ae0cf965.jpg",
       facebookLink: "#",
       twitterLink: "#",
       instagramLink: "#",
