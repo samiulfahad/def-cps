@@ -41,7 +41,7 @@ function Slider() {
       </div>
       <div className="relative h-3/4 w-full">
         <img
-          src="https://i.postimg.cc/qqfxFRTS/Whats-App-Image-2024-11-10-at-00-11-39-0b52b6bd.jpg"
+          src="https://i.postimg.cc/Bn50k8JW/Whats-App-Image-2025-03-18-at-00-44-49-84bfac6e.jpg"
           alt="image 3"
           className="h-full w-full object-cover"
         />

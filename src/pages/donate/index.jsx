@@ -18,8 +18,8 @@ const Donate = () => {
       className="relative overflow-hidden"
     >
       <div
-        className="relative flex items-center justify-center w-full text-center bg-center bg-cover"
-        style={{ backgroundImage: "url(https://i.postimg.cc/VvvPKn0x/IMG-20190407-085757.jpg)", height: "600px" }}
+        className="relative  flex items-center justify-center w-full text-center bg-center bg-cover"
+        style={{ backgroundImage: "url(https://i.postimg.cc/Pq4dpC7b/Whats-App-Image-2025-03-18-at-00-44-52-20b954a9.jpg)", height: "600px" }}
       >
         {!showForm ? (
           <div className="mx-4">
