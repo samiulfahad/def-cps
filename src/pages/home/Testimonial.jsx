@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      name: "John Doe",
+      name: "Ashraful Middya",
       occupation: "Guardian",
       quote:
         "Enrolling my child in City Public School, Durgapur was a transformative decision. The school's innovative teaching methods and dedicated faculty create an environment where learning becomes an exciting journey. My child's growth, both academically and personally, has been remarkable",
@@ -15,14 +15,14 @@ const TestimonialsSection = () => {
     {
       id: 2,
       name: "Wazda Tabassum",
-      occupation: "Headmaster",
+      occupation: "Headmistress",
       quote:
         "As the Headmaster of City Public School, Durgapur, I take pride in our students' transformative journeys. Our commitment to academic excellence and a nurturing environment empowers each child to thrive. It's a joy to witness them evolve into confident, compassionate individuals ready to face the world's challenges with resilience and knowledge.",
       imageSrc: "https://i.postimg.cc/WzpFqRSz/Whats-App-Image-2025-03-18-at-00-44-51-01290bd6.jpg",
     },
     {
       id: 3,
-      name: "John Doe",
+      name: "Sk Nasrul",
       occupation: "Guardian",
       quote:
         "City Public School, Durgapur, has exceeded my expectations in providing a safe and stimulating learning atmosphere. The school's emphasis on both academic excellence and extracurricular activities ensures a balanced education. My child not only excels academically but also enjoys a rich and fulfilling school experience.",
