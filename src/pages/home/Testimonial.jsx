@@ -10,15 +10,15 @@ const TestimonialsSection = () => {
       occupation: "Guardian",
       quote:
         "Enrolling my child in City Public School, Durgapur was a transformative decision. The school's innovative teaching methods and dedicated faculty create an environment where learning becomes an exciting journey. My child's growth, both academically and personally, has been remarkable",
-      imageSrc: "wj9DLCJj/yunming-wang-G9f4-Enb8-XVM-unsplash",
+      imageSrc: "https://i.postimg.cc/KYGtgsf1/person-dummy.jpg",
     },
     {
       id: 2,
-      name: "John Doe",
+      name: "Wazda Tabassum",
       occupation: "Headmaster",
       quote:
         "As the Headmaster of City Public School, Durgapur, I take pride in our students' transformative journeys. Our commitment to academic excellence and a nurturing environment empowers each child to thrive. It's a joy to witness them evolve into confident, compassionate individuals ready to face the world's challenges with resilience and knowledge.",
-      imageSrc: "KvrSzTxg/alexandru-zdrobau-dj-RG1v-B1pw-unsplash",
+      imageSrc: "https://i.postimg.cc/WzpFqRSz/Whats-App-Image-2025-03-18-at-00-44-51-01290bd6.jpg",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const TestimonialsSection = () => {
       occupation: "Guardian",
       quote:
         "City Public School, Durgapur, has exceeded my expectations in providing a safe and stimulating learning atmosphere. The school's emphasis on both academic excellence and extracurricular activities ensures a balanced education. My child not only excels academically but also enjoys a rich and fulfilling school experience.",
-      imageSrc: "gk8KvyTN/ehsan-ahmadi-vs-Wy6nchc-Os-unsplash",
+      imageSrc: "https://i.postimg.cc/KYGtgsf1/person-dummy.jpg",
     },
   ]
 
@@ -59,7 +59,7 @@ const TestimonialsSection = () => {
                       <div className="absolute w-24 h-24 border-t-4 border-r-4 border-blue-gray-400 -top-4 -right-4"></div>
                       <img
                         className="object-cover w-full h-full"
-                        src={`https://i.postimg.cc/${testimonial.imageSrc}.jpg`}
+                        src={testimonial.imageSrc}
                         alt=""
                       />
                       <div className="absolute w-24 h-24 border-b-4 border-l-4 border-blue-gray-400 -bottom-4 -left-4"></div>
